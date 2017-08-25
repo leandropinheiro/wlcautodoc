@@ -11,7 +11,7 @@ Testado com as seguintes versões do Python:
 
 Python 3.6.2 (Works)
 Python 3.5.2 (Works)
-Python 2.7.13 (Works)   
+Python 2.7.13 (Works)
 Python 2.7.12 (Works)
 
 Testado com as seguintes versões do WLC:
