@@ -13,3 +13,19 @@ Python 3.6.2 (Works)
 Python 3.5.2 (Works)
 Python 2.7.13 (Works)   
 Python 2.7.12 (Works)
+
+Testado com as seguintes versões do WLC:
+
+Virtual WLC 8.0.140.0
+
+Changelog:
+
+25/08/217
+
+- Aba monitor do WLC completa, ainda não trata páginas com rolagem.
+
+TODO:
+
+- Terminar as outras abas
+- Tratar as telas com barras de rolagem
+
