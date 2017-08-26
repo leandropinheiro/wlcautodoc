@@ -23,6 +23,7 @@ modulo = 'Monitor'
 # Define as funcoes
 
 def screencap(Text, number):
+    Text = gettext(Text)
     filename = modulo + '-' + str(number).zfill(3) + '-' + driver.title + '-' + Text + '.png'
     number += 1
     time.sleep(delay)
@@ -100,8 +101,8 @@ for menu in navBar2:
             navBar1[navBar1_id].click()
 
         menu.click()
-        menu_name = gettext(html)
-        img = screencap(menu_name, img)
+        #menu_name = gettext(html)
+        img = screencap(html, img)
 
     navBar2_id += 1
 
